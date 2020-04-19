@@ -17,4 +17,8 @@ public class Card {
     public int getNumber() {
         return number;
     }
+
+    public void printCard() {
+        System.out.print(shape+" "+number);
+    }
 }

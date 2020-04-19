@@ -11,5 +11,6 @@ public class Deck {
 				this.decklist.add(new Card(this.suits[i],j));
 			}
 		}
+		Collections.shuffle(decklist);
 	}
 }
